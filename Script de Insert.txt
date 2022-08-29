@@ -1,0 +1,110 @@
+SCRIP DE INSERT INTO
+
+INSERT INTO CLIENTE VALUES ('1111111111111','Leonidas', 'Leofo@hotmai.com', '1131111111', '119111111111','02020001', 'Rua Exemplo', '001', 'SP','São Paulo'
+INSERT INTO CLIENTE VALUES ('1111111111112','Nome_Sobrenome', 'email@hotmai.com', '1131111112', '119111111112','02020002', 'Rua Exemplo', '002', 'SP','São Paulo'
+INSERT INTO CLIENTE VALUES ('1111111111113','Nome_Sobrenome', 'email@hotmai.com', '1131111113', '119111111113','02020003', 'Rua Exemplo', '003', 'SP','São Paulo'
+INSERT INTO CLIENTE VALUES ('1111111111114','Nome_Sobrenome', 'email@hotmai.com', '1131111114', '119111111114','02020004', 'Rua Exemplo', '004', 'SP','São Paulo'
+INSERT INTO CLIENTE VALUES ('1111111111115','Nome_Sobrenome', 'email@hotmai.com', '1131111115', '119111111115','02020005', 'Rua Exemplo', '005', 'SP','São Paulo'
+INSERT INTO CLIENTE VALUES ('1111111111116','Nome_Sobrenome', 'email@hotmai.com', '1131111116', '119111111116','02020006', 'Rua Exemplo', '006', 'SP','São Paulo'
+INSERT INTO CLIENTE VALUES ('1111111111117','Nome_Sobrenome', 'email@hotmai.com', '1131111117', '119111111117','02020007', 'Rua Exemplo', '007', 'SP','São Paulo'
+INSERT INTO CLIENTE VALUES ('1111111111118','Nome_Sobrenome', 'email@hotmai.com', '1131111118', '119111111118','02020008', 'Rua Exemplo', '008', 'SP','São Paulo'
+INSERT INTO CLIENTE VALUES ('1111111111119','Nome_Sobrenome', 'email@hotmai.com', '1131111119', '119111111119','02020009', 'Rua Exemplo', '009', 'SP','São Paulo'
+INSERT INTO CLIENTE VALUES ('1111111111110','Nome_Sobrenome', 'email@hotmai.com', '1131111110', '119111111110','02020010', 'Rua Exemplo', '010', 'SP','São Paulo'
+INSERT INTO CLIENTE VALUES ('1111111111121','Nome_Sobrenome', 'email@hotmai.com', '1131111121', '119111111121','02020021', 'Rua Exemplo', '011', 'SP','São Paulo'
+INSERT INTO CLIENTE VALUES ('1111111111122','Nome_Sobrenome', 'email@hotmai.com', '1131111122', '119111111122','02020022', 'Rua Exemplo', '012', 'SP','São Paulo'
+INSERT INTO CLIENTE VALUES ('1111111111123','Nome_Sobrenome', 'email@hotmai.com', '1131111123', '119111111123','02020023', 'Rua Exemplo', '013', 'SP','São Paulo'
+INSERT INTO CLIENTE VALUES ('1111111111124','Nome_Sobrenome', 'email@hotmai.com', '1131111124', '119111111124','02020024', 'Rua Exemplo', '014', 'SP','São Paulo'
+INSERT INTO CLIENTE VALUES ('1111111111125','Nome_Sobrenome', 'email@hotmai.com', '1131111125', '119111111125','02020025', 'Rua Exemplo', '015', 'SP','São Paulo'
+INSERT INTO CLIENTE VALUES ('1111111111115','Nome_Sobrenome', 'email@hotmai.com', '1131111115', '119111111115','02020005', 'Rua Exemplo', '016', 'SP','São Paulo'
+INSERT INTO CLIENTE VALUES ('1111111111115','Nome_Sobrenome', 'email@hotmai.com', '1131111115', '119111111115','02020005', 'Rua Exemplo', '017', 'SP','São Paulo'
+
+
+INSERT INTO FIDELIDADE VALUES ('1', '2021-03-01','50')
+INSERT INTO FIDELIDADE VALUES ('2', '2021-03-02','43')
+INSERT INTO FIDELIDADE VALUES ('3', '2021-03-03','42')
+INSERT INTO FIDELIDADE VALUES ('4', '2021-03-04','51')
+
+
+INSERT INTO FORMA_PAGAMENTO VALUES ('Master Card', 'Cartão de Débito')
+INSERT INTO FORMA_PAGAMENTO VALUES ('Master Card', 'Cartão de Crédito')
+INSERT INTO FORMA_PAGAMENTO VALUES ('Dinheiro', 'Dinheiro')
+INSERT INTO FORMA_PAGAMENTO VALUES ('Alelo', 'Ticket Refeição')
+INSERT INTO FORMA_PAGAMENTO VALUES ('Sodexo', 'Ticket Refeição')
+
+
+
+INSERT INTO MARCA VALUES ('Nestle', 'Nestle S.A')
+INSERT INTO MARCA VALUES ('Lacta', 'Mondelez')
+INSERT INTO MARCA VALUES ('Garoto', 'Garoto')
+INSERT INTO MARCA VALUES ('Arcor', 'Arcor')
+INSERT INTO MARCA VALUES ('Trident', 'Mondelez')
+
+INSERT INTO PRODUTO VALUES ('Chokito', 'Chokito', '1')
+INSERT INTO PRODUTO VALUES ('Crunch', 'Crunch', '1')
+INSERT INTO PRODUTO VALUES ('Kitkat', 'Kitkat', '1')
+INSERT INTO PRODUTO VALUES ('Oreo', 'Oreo', '2')
+INSERT INTO PRODUTO VALUES ('Diamante Negro', 'Diamante Negro', '2')
+INSERT INTO PRODUTO VALUES ('Shot', 'Shot', '2')
+INSERT INTO PRODUTO VALUES ('Sonho de Valsa', 'Sonho de Valsa', '2')
+INSERT INTO PRODUTO VALUES ('Baton', 'Baton', '3')
+INSERT INTO PRODUTO VALUES ('7Belo', '7Belo', '4')
+INSERT INTO PRODUTO VALUES ('Trindent de Menta', 'Trident de Menta', '5')
+INSERT INTO PRODUTO VALUES ('Trident de Morango', 'Trident de Morango', '5')
+
+INSERT INTO Pedido_Venda VALUES ('110', '10', '2021-03-01', '1', '1')
+INSERT INTO Pedido_Venda VALUES ('10.5', '0.5', '2021-03-02', '1', '1')
+INSERT INTO Pedido_Venda VALUES ('110', '10', '2021-03-03', '2', '2')
+INSERT INTO Pedido_Venda VALUES ('10.5', '0.5', '2021-03-04', '2', '10')
+INSERT INTO Pedido_Venda VALUES ('110', '10', '2021-03-05', '3', '12')
+INSERT INTO Pedido_Venda VALUES ('10.5', '0.5', '2021-03-06', '5', '15')
+INSERT INTO Pedido_Venda VALUES ('110', '10', '2021-03-07', '5', '20')
+INSERT INTO Pedido_Venda VALUES ('10.5', '0.5', '2021-03-08', '5', '7')
+INSERT INTO Pedido_Venda VALUES ('110', '10', '2021-03-09', '1', '8')
+INSERT INTO Pedido_Venda VALUES ('10.5', '0.5', '2021-03-10', '2', '9')
+
+INSERT INTO Item_Pedido_Venda VALUES (110,0.1,1,100,7,1)
+INSERT INTO Item_Pedido_Venda VALUES (5.25,0.25,5,1,2,2)
+INSERT INTO Item_Pedido_Venda VALUES (5,25,0.25,5,1,4,2)
+INSERT INTO Item_Pedido_Venda VALUES (110,0.1,1,100,7,3)
+INSERT INTO Item_Pedido_Venda VALUES (10.5,0.5,10,2,6,4)
+INSERT INTO Item_Pedido_Venda VALUES (110,0.1,1,100,7,5)
+INSERT INTO Item_Pedido_Venda VALUES (10.5,0.5,10,2,1,6)
+INSERT INTO Item_Pedido_Venda VALUES (110,0.1,1,100,7,7)
+INSERT INTO Item_Pedido_Venda VALUES (5.25,0.25,5,1,2,8)
+INSERT INTO Item_Pedido_Venda VALUES (5.25,0.25,5,1,4,8)
+INSERT INTO Item_Pedido_Venda VALUES (110,0.1,1,100,7,9)
+INSERT INTO Item_Pedido_Venda VALUES (10,0.5,10,2,1,10)
+
+INSERT INTO Distribuidor VALUES ('1111111111111111','Distribuidor 1','Distribuidor LTDA 1','02020001','Rua: Exemplo,'001','SP','São Paulo')
+INSERT INTO Distribuidor VALUES ('1111111111111112','Distribuidor 2','Distribuidor LTDA 2','02020002','Rua: Exemplo,'002','SP','São Paulo')
+INSERT INTO Distribuidor VALUES ('1111111111111113','Distribuidor 3','Distribuidor LTDA 3','02020003','Rua: Exemplo,'003','SP','São Paulo')
+INSERT INTO Distribuidor VALUES ('1111111111111114','Distribuidor 4','Distribuidor LTDA 4','02020004','Rua: Exemplo,'004','SP','São Paulo')
+INSERT INTO Distribuidor VALUES ('1111111111111115','Distribuidor 5','Distribuidor LTDA 5','02020005','Rua: Exemplo,'005','SP','São Paulo')
+INSERT INTO Distribuidor VALUES ('1111111111111116','Distribuidor 6','Distribuidor LTDA 6','02020006','Rua: Exemplo,'006','SP','São Paulo')
+INSERT INTO Distribuidor VALUES ('1111111111111117','Distribuidor 7','Distribuidor LTDA 7','02020007','Rua: Exemplo,'007','SP','São Paulo')
+INSERT INTO Distribuidor VALUES ('1111111111111118','Distribuidor 8','Distribuidor LTDA 8','02020008','Rua: Exemplo,'008','SP','São Paulo')
+INSERT INTO Distribuidor VALUES ('1111111111111119','Distribuidor 9','Distribuidor LTDA 9','02020009','Rua: Exemplo,'009','SP','São Paulo')
+INSERT INTO Distribuidor VALUES ('1111111111111110','Distribuidor 10','Distribuidor LTDA 10','020200010','Rua: Exemplo,'010','SP','São Paulo')
+
+INSERT INTO Pedido_Compra VALUES (2021-03-01,1000,1,1)
+INSERT INTO Pedido_Compra VALUES (2021-03-02,100,1,1)
+INSERT INTO Pedido_Compra VALUES (2021-03-03,1000,1,2)
+INSERT INTO Pedido_Compra VALUES (2021-03-04,100,1,10)
+INSERT INTO Pedido_Compra VALUES (2021-03-05,1000,1,5)
+INSERT INTO Pedido_Compra VALUES (2021-03-06,1000,1,7)
+INSERT INTO Pedido_Compra VALUES (2021-03-07,1000,0,9)
+INSERT INTO Pedido_Compra VALUES (2021-03-08,100,0,7)
+INSERT INTO Pedido_Compra VALUES (2021-03-09,1000,0,8)
+INSERT INTO Pedido_Compra VALUES (2021-03-10,100,0,9)
+
+INSERT INTO Item_Pedido_Compra VALUES (1000,1,1000,7,1)
+INSERT INTO Item_Pedido_Compra VALUES (50,5,10,2,2)
+INSERT INTO Item_Pedido_Compra VALUES (50,5,10,4,2)
+INSERT INTO Item_Pedido_Compra VALUES (1000,1,1000,7,3)
+INSERT INTO Item_Pedido_Compra VALUES (100,10,20,6,4)
+INSERT INTO Item_Pedido_Compra VALUES (1000,1,1000,7,5)
+INSERT INTO Item_Pedido_Compra VALUES (1000,1,1000,7,7)
+INSERT INTO Item_Pedido_Compra VALUES (50,5,20,2,8)
+INSERT INTO Item_Pedido_Compra VALUES (50,5,20,4,8)
+INSERT INTO Item_Pedido_Compra VALUES (1000,1,1000,7,9)
+INSERT INTO Item_Pedido_Compra VALUES (100,10,20,1,10)
